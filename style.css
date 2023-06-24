@@ -1,0 +1,1429 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(#1a1e29, #333645);
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+header {
+  display: flex;
+}
+header .logo img {
+  background-image: linear-gradient(#d51435, #c20c4e);
+  padding: 15px;
+  width: 20px;
+  border-right: 0.3px solid #fff;
+}
+header .menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 800px;
+}
+header .menu .menu-left p {
+  margin-left: 20px;
+  padding-bottom: 7px;
+  color: #fff;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+}
+header .menu .menu-right {
+  display: flex;
+  gap: 15px;
+}
+header .menu .menu-right p {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+}
+header .menu .menu-right p a {
+  text-decoration: none;
+  color: #fff;
+}
+header .menu .menu-right .home {
+  border-bottom: 2px solid #d51435;
+  padding-bottom: 7px;
+}
+header .navbarmenu {
+  display: none;
+}
+
+.firstSection .fsLeft {
+  float: left;
+  margin-top: -29px;
+  padding: 395px 15px 70px 15px;
+  border-right: 2px solid #fff;
+}
+.firstSection .fsLeft p i {
+  font-size: 18px;
+  color: #fff;
+  padding-bottom: 5px;
+}
+.firstSection .fsLeft .fsYoutube a i:hover {
+  color: #c4302b;
+}
+.firstSection .fsLeft .fsTiktok a i:hover {
+  color: #ff2d55;
+}
+.firstSection .fsLeft .fsTwitter a i:hover {
+  color: #007ff0;
+}
+.firstSection .fsLeft .fsFacebook a i:hover {
+  color: #246bce;
+}
+.firstSection .fsLeft .fsInstagram a i:hover {
+  color: #f56040;
+}
+
+.firstSection .fsMiddle {
+  background-image: url("imgs/carbg.png");
+  width: 100%;
+  height: 500px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.firstSection .fsMiddle .fsmtextLeft .fsmtlfirstText {
+  margin: 17px;
+  padding-left: 90px;
+  padding-top: 20px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  color: #fff;
+  font-size: 50px;
+  width: 30%;
+}
+.firstSection .fsMiddle .fsmtextLeft .fsmtlsecondText {
+  margin: 17px;
+  margin-top: -10px;
+  margin-bottom: 30px;
+  padding-left: 90px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: #fff;
+  font-size: 14.5px;
+  width: 25%;
+  opacity: 0.7;
+}
+.firstSection .fsMiddle .fsmtextLeft .driftinButton {
+  margin: 17px;
+  margin-top: 40px;
+  margin-left: 55px;
+  padding: 18px 55px;
+  border-radius: 5px;
+  color: #fff;
+  background-image: linear-gradient(#d51435, #c20c4e);
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.firstSection .fsMiddle .fsmtextLeft .fsmtlfirstText {
+  margin: 17px;
+  padding-left: 90px;
+  padding-top: 20px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  color: #fff;
+  font-size: 30px;
+  width: 40%;
+}
+.firstSection .fsMiddle .fsmtextLeft .fsmtlsecondText {
+  margin: 17px;
+  margin-top: -10px;
+  margin-bottom: 25px;
+  padding-left: 90px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: #fff;
+  font-size: 13px;
+  width: 33%;
+  opacity: 0.7;
+}
+.firstSection .fsMiddle .fsmtextLeft .driftinButton {
+  margin: 17px;
+  margin-left: 55px;
+  padding: 12px 30px;
+  border-radius: 5px;
+  color: #fff;
+  background-image: linear-gradient(#d51435, #c20c4e);
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.firstSection .fsMiddle .fsmtextLeft .fsmtlfirstText .fsmtlredText {
+  color: #c4302b;
+  text-decoration: none;
+  cursor: default;
+}
+
+.firstSection .fsBottom .fsbLeft p {
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  margin: 17px;
+  padding-left: 55px;
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+}
+.firstSection .fsBottom {
+  display: flex;
+  align-items: center;
+  gap: 200px;
+  margin-top: -55px;
+}
+.firstSection .fsBottom .fsbLeft p i {
+  padding-right: 8px;
+  color: #fff;
+  font-size: 22px;
+}
+.firstSection .fsBottom .fsbLeft p a {
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 2px solid #fff;
+  border-radius: 2px;
+}
+.firstSection .fsBottom .fsbRight .fsbrTitle {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+}
+.firstSection .fsBottom .fsbRight .fsbrtopsellingProducts {
+  display: flex;
+  gap: 10px;
+  background-color: #13151c;
+  padding: 10px;
+}
+.firstSection .fsBottom .fsbRight .fsbrtopsellingProducts section img {
+  width: 200px;
+  height: 110px;
+}
+
+.firstSection .fsBottom .fsbRight .fsbrtopsellingProducts .tsp4 {
+  position: relative;
+}
+.firstSection .fsBottom .fsbRight .fsbrtopsellingProducts .tsp4 a p {
+  position: absolute;
+  color: #fff;
+  z-index: 2;
+  font-size: 13px;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+  width: 110px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border: 2px solid #fff;
+  font-family: "Inter", sans-serif;
+  border-radius: 1px;
+  font-weight: 600;
+}
+.firstSection .fsBottom .fsbRight .fsbrtopsellingProducts .tsp4 a p:hover {
+  position: absolute;
+  color: #fff;
+  z-index: 2;
+  font-size: 13px;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+  width: 110px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 11px;
+  border: 2px solid #fff;
+  border-radius: 1px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+}
+.firstSection .fsBottom .fsbRight .fsbrtopsellingProducts .tsp4 img {
+  filter: blur(1px);
+}
+
+.secondSection .ssfirstCard {
+  margin-top: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 35px 65px 35px 65px;
+  background-color: #13151c;
+  border-radius: 17px;
+}
+.secondSection .ssfirstCard .ssfcTitle {
+  font-family: "Inter", sans-serif;
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+  padding-bottom: 7px;
+}
+.secondSection .ssfirstCard .ssfcCards {
+  /*display: flex;
+  gap: 90px;
+  align-items: center;
+  justify-content: center;*/
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.secondSection .ssfirstCard .ssfcCards section {
+  background-color: #1c1e28;
+  padding: 10px;
+  width: 350px;
+  border-radius: 12px;
+  text-align: left;
+}
+.secondSection .ssfirstCard .ssfcCards section img {
+  width: 350px;
+  height: 175px;
+  display: inline-block;
+  border-radius: 7px;
+}
+.secondSection .ssfirstCard .ssfcCards section .fccarName {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
+  width: 250px;
+}
+.secondSection .ssfirstCard .ssfcCards section .fccarPrice a {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+}
+.secondSection .ssfirstCard .viewstocksContainer {
+  text-align: center;
+}
+.secondSection .ssfirstCard .viewstocksContainer .viewStocks {
+  color: #fff;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  background-image: linear-gradient(#d51435, #c20c4e);
+  font-size: 14px;
+  padding: 22px 26px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.secondSection .sssecondPart {
+  margin-left: 55px;
+  margin-right: 50px;
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+.secondSection .sssecondPart .spLeft .splFirst {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+  width: 450px;
+}
+.secondSection .sssecondPart .spLeft .splFirst .splredText {
+  color: #d51435;
+  text-decoration: none;
+  cursor: default;
+}
+.secondSection .sssecondPart .spLeft .splSecond {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  width: 500px;
+  margin-top: -25px;
+  margin-bottom: 25px;
+}
+.secondSection .sssecondPart .spLeft .splLink {
+  color: #fff;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  background-image: linear-gradient(#d51435, #c20c4e);
+  padding: 12px 20px;
+  border-radius: 5px;
+  font-size: 13px;
+}
+.thirdsectionContainer {
+  background: url("imgs/Rectangle 18.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+.thirdsectionContainer .thirdSection .tsfirstPart .tsfpTitle {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  padding: 150px;
+  padding-bottom: 54.12px;
+}
+.thirdsectionContainer .thirdSection .tsfirstPart .tsfpTitle .tsfptredText {
+  text-decoration: none;
+  color: #d51435;
+}
+.thirdsectionContainer .thirdSection .tsfirstPart .tsfpCards {
+  display: flex;
+  gap: 26.55px;
+  align-items: center;
+  justify-content: center;
+}
+.thirdsectionContainer .thirdSection .tsfirstPart .tsfpCards section {
+  background-color: #13151c;
+  display: inline-block;
+  width: 300px;
+  text-align: center;
+  border-radius: 15px;
+  padding: 35px 35px 55px 35px;
+  align-items: center;
+  justify-content: center;
+}
+.thirdsectionContainer .thirdSection .tsfirstPart .tsfpCards .fpcardsFirst {
+  transform: rotate(-4deg);
+}
+.thirdsectionContainer .thirdSection .tsfirstPart .tsfpCards .fpcardsSecond {
+  transform: rotate(4deg);
+}
+.thirdsectionContainer .thirdSection .tsfirstPart .tsfpCards section .fpcTitle {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  font-size: 18px;
+}
+.thirdsectionContainer
+  .thirdSection
+  .tsfirstPart
+  .tsfpCards
+  section
+  .fpcTitle
+  .fpctredText {
+  text-decoration: none;
+  color: #d51435;
+}
+.thirdsectionContainer .thirdSection .tsfirstPart .tsfpCards section .fpcLink {
+  color: #fff;
+  background-image: linear-gradient(#d51435, #c20c4e);
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  padding: 17px 34px;
+  border-radius: 5px;
+  font-size: 13.5px;
+}
+
+.thirdSection .tssecondPart {
+  background-color: #13151c;
+  border-radius: 17px;
+  padding-bottom: 55px;
+}
+.thirdSection .tssecondPart .tsspTitle {
+  margin-left: 55px;
+  padding-top: 55px;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+.thirdSection .tssecondPart .tsspCards {
+  margin-left: 55px;
+  margin-top: 30px;
+  margin-right: 55px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 50px;
+}
+.thirdSection .tssecondPart .tsspCards .spcardsLeft {
+  background-color: #1c1e28;
+  width: 576px 576px;
+  padding: 25px;
+  border-radius: 12px;
+}
+.thirdSection .tssecondPart .tsspCards .spcardsRight {
+  background-color: #1c1e28;
+  width: 576px 576px;
+  padding: 25px;
+  border-radius: 12px;
+}
+.thirdSection .tssecondPart .tsspCards .spcardsLeft .spclTitle {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+}
+.thirdSection .tssecondPart .tsspCards .spcardsLeft .spclCard .clcfirstText {
+  width: 450px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+}
+.thirdSection .tssecondPart .tsspCards .spcardsLeft .spclCard .clcfirstText a {
+  text-decoration: none;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
+.thirdSection .tssecondPart .tsspCards .spcardsLeft .spclCard .clcsecondText {
+  color: #fff;
+  opacity: 0.7;
+  font-family: "Inter", sans-serif;
+  width: 400px;
+  font-size: 17px;
+}
+.thirdSection .tssecondPart .tsspCards .spcardsLeft .spclCard .spclcBottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.thirdSection
+  .tssecondPart
+  .tsspCards
+  .spcardsLeft
+  .spclCard
+  .spclcBottom
+  .clcbDate {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  opacity: 0.7;
+  font-size: 15px;
+}
+.thirdSection
+  .tssecondPart
+  .tsspCards
+  .spcardsLeft
+  .spclCard
+  .spclcBottom
+  .clcbLink {
+  color: #fff;
+  background-image: linear-gradient(#d51435, #c20c4e);
+  text-decoration: none;
+  padding: 15px 25px;
+  font-family: "Inter", sans-serif;
+  border-radius: 5px;
+  font-size: 13.5px;
+}
+.thirdSection .tssecondPart .tsspCards .spcardsRight .spcrTitle {
+  font-family: "Inter", sans-serif;
+  color: #fff;
+  font-weight: 600;
+}
+.thirdSection .tssecondPart .tsspCards .spcardsRight .spcrsecondText {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.thirdSection .tssecondPart .tsspCards .spcardsRight .spcrsecondText i {
+  border-radius: 30px;
+  font-size: 20px;
+}
+.thirdSection .tssecondPart .tsspCards .spcardsRight .spcrsecondText a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  border-bottom: 1px solid #fff;
+}
+.thirdSection .tssecondPart .tsspCards .spcardsRight .spcrimageGrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 27px;
+  width: 480px;
+}
+.thirdSection .tssecondPart .tsspCards .spcardsRight .spcrimageGrid img {
+  width: 140px;
+  height: 140px;
+}
+
+.thirdsectionContainer .thirdSection .newsletterText {
+  text-align: center;
+}
+.thirdsectionContainer .thirdSection .newsletterText .nltfirstText {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+}
+.thirdsectionContainer .thirdSection .newsletterText .nltsecondText {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  opacity: 0.8;
+  margin-top: -10px;
+  margin-bottom: 30px;
+  font-size: 16px;
+}
+.thirdsectionContainer .thirdSection .newsletterText .nltLink {
+  color: #fff;
+  font-size: 14px;
+  padding: 15px 30px;
+  background-image: linear-gradient(#d51435, #c20c4e);
+  border-radius: 5px;
+  text-decoration: underline;
+  font-family: "Inter", sans-serif;
+}
+footer {
+  background-color: #000;
+  padding-left: 55px;
+  padding-top: 55px;
+  padding-bottom: 15px;
+  padding-right: 75px;
+}
+footer .footerUp {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .footerUp .fuLeft {
+  display: flex;
+  gap: 120px;
+}
+footer .footerUp .fuLeft section .fulTitle {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 2px;
+  border-bottom: 0.5px solid #888888;
+  padding-bottom: 15px;
+  width: 35px;
+  margin-bottom: 25px;
+}
+footer .footerUp .fuLeft section .fulLinks {
+  display: grid;
+  gap: 20px;
+}
+footer .footerUp .fuLeft section .fulLinks a {
+  color: #fff;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  opacity: 0.95;
+}
+footer .footerUp .fuLeft section .fulLinks a:hover {
+  opacity: 0.6;
+}
+footer .footerUp .fuRight {
+  display: grid;
+}
+footer .footerUp .fuRight .furUp {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  float: right;
+  text-align: right;
+  justify-content: right;
+}
+footer .footerUp .fuRight .furUp a {
+  color: #fff;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+}
+footer .footerUp .fuRight .furDown {
+  display: flex;
+  gap: 25px;
+  float: right;
+  text-align: right;
+}
+footer .footerUp .fuRight .furDown a {
+  color: #fff;
+  font-size: 18px;
+  padding-top: 75px;
+}
+footer .footerUp .fuRight .furDown .furdYoutube:hover {
+  color: #c4302b;
+}
+footer .footerUp .fuRight .furDown .furdTiktok:hover {
+  color: #ff2d55;
+}
+footer .footerUp .fuRight .furDown .furdTwitter:hover {
+  color: #007ff0;
+}
+footer .footerUp .fuRight .furDown .furdFacebook:hover {
+  color: #246bce;
+}
+footer .footerUp .fuRight .furDown .furdInstagram:hover {
+  color: #f56040;
+}
+footer .footermiddleLine {
+  width: 100%;
+  height: 0.1px;
+  border: none;
+  border-top: 0.1px solid #fff;
+}
+
+footer .footerDown .fdInner .fdiUpper {
+  display: block;
+  text-align: center;
+}
+footer .footerDown .fdInner .fdiDown p {
+  color: #fff;
+  opacity: 0.6;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+}
+footer .footerDown .fdInner .fdiUpper .fdiuFirst {
+  color: #fff;
+  font-weight: 400;
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+}
+footer .footerDown .fdInner .fdiUpper .fdiuSecond .fdiusLinks {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+footer .footerDown .fdInner .fdiUpper .fdiuSecond .fdiusLinks a {
+  color: #fff;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+}
+#uckbt {
+  cursor: text;
+}
+
+@media (max-width: 777px) {
+  header .logo img {
+    background-image: linear-gradient(#d51435, #c20c4e);
+    padding: 20px;
+    width: 25px;
+    border-right: none;
+  }
+
+  header .menu {
+    display: none;
+  }
+
+  header .navbarmenu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  header .navbarmenu .menu-left p {
+    margin-left: 15px;
+    color: #fff;
+    font-weight: 600;
+    align-items: center;
+    font-size: 17px;
+    font-family: "Inter", sans-serif;
+  }
+
+  header .navbarmenu .menu-nav .tootle-menu #toggle-bar {
+    right: 30px;
+    top: -19px;
+    position: absolute;
+    font-size: 30px;
+    color: #fff;
+  }
+
+  header .navbarmenu .menu-nav .mainMenu {
+    background-color: #fff;
+    margin-top: 25px;
+    position: fixed;
+    left: 0;
+    /* width: 100%; */
+    width: 380px;
+    height: auto;
+    padding: 20px;
+    border: 1px solid red;
+    z-index: 9000000000;
+  }
+
+  header .navbarmenu .menu-nav .mainMenu li {
+    list-style: none;
+    padding: 15px 15px 15px 0px;
+    border-bottom: 1px solid #d51435;
+    /* margin-right: 40px; */
+  }
+
+  header .navbarmenu .menu-nav .mainMenu li a {
+    text-decoration: none;
+    color: #d51435;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 14.5px;
+  }
+
+  header .navbarmenu .menu-nav .mainMenu li i {
+    color: #d51435;
+    padding-right: 5px;
+    font-size: 14.5px;
+  }
+
+  header .navbarmenu .menu-nav .mainMenu .mmSocials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  header .navbarmenu .menu-nav .mainMenu .mmSocials li {
+    border: none;
+    margin-right: 20px !important;
+    text-align: center;
+  }
+
+  header .navbarmenu .menu-nav .mainMenu .mmSocials li a i {
+    font-size: 16px;
+  }
+
+  header .navbarmenu .menu-nav .mainMenu .mmphnom {
+    align-items: center;
+    display: flex;
+    font-family: "Montserrat", sans-serif;
+    gap: 3px;
+  }
+
+  header .navbarmenu .menu-nav .mainMenu .mmphnom i {
+    color: #d51435;
+    font-size: 19px;
+    padding-left: 5px;
+  }
+
+  header .navbarmenu .menu-nav .mainMenu .mmphnom a {
+    color: #d51435;
+    font-size: 14.5px;
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+  .firstSection .fsLeft {
+    display: none;
+  }
+
+  .firstSection .fsLeft p i {
+    display: none;
+  }
+
+  .firstSection .fsMiddle {
+    background-image: url("imgs/carbg.png");
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .firstSection .fsMiddle .fsmtextLeft .fsmtlfirstText {
+    padding-left: 10px;
+    padding-top: 10px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    color: #fff;
+    font-size: 40px;
+    width: 250px;
+  }
+
+  .firstSection .fsMiddle .fsmtextLeft .fsmtlsecondText {
+    margin: 17px;
+    margin-bottom: 30px;
+    padding-left: 10px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: #fff;
+    font-size: 14.5px;
+    width: 300px;
+    opacity: 0.9;
+  }
+
+  .firstSection .fsMiddle .fsmtextLeft .driftinButton {
+    margin: 17px;
+    margin-top: 40px;
+    margin-left: 25px;
+    padding: 14px 26px;
+    border-radius: 5px;
+    color: #fff;
+    background-image: linear-gradient(#d51435, #c20c4e);
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+  }
+
+  .firstSection .fsMiddle .fsmtextLeft .fsmtlfirstText .fsmtlredText {
+    color: #c4302b;
+    text-decoration: none;
+    cursor: default;
+  }
+
+  .firstSection .fsBottom {
+    display: none;
+  }
+
+  .secondSection .ssfirstCard {
+    margin-top: -20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 25px 30px;
+    padding-left: 0px;
+    background-color: #13151c;
+    border-radius: 17px;
+  }
+
+  .secondSection .ssfirstCard .ssfcTitle {
+    font-family: "Inter", sans-serif;
+    color: #fff;
+    font-weight: 700;
+    font-size: 17px;
+    padding-bottom: 7px;
+    padding-left: 23px;
+  }
+
+  .secondSection .ssfirstCard .ssfcCards {
+    /*display: flex;
+gap: 90px;
+align-items: center;*/
+    display: grid;
+    gap: 10px;
+    justify-content: center;
+  }
+
+  .secondSection .ssfirstCard .ssfcCards section {
+    background-color: #1c1e28;
+    padding: 10px;
+    width: 100%;
+    border-radius: 12px;
+    text-align: left;
+  }
+
+  .secondSection .ssfirstCard .ssfcCards section img {
+    width: 100%;
+    height: 175px;
+    display: inline-block;
+    border-radius: 7px;
+  }
+
+  .secondSection .ssfirstCard .ssfcCards section .fccarName {
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-size: 17px;
+    width: 250px;
+  }
+
+  .secondSection .ssfirstCard .ssfcCards section .fccarPrice a {
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+  }
+
+  .secondSection .ssfirstCard .viewstocksContainer {
+    text-align: center;
+  }
+
+  .secondSection .ssfirstCard .viewstocksContainer .viewStocks {
+    color: #fff;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    background-image: linear-gradient(#d51435, #c20c4e);
+    font-size: 14px;
+    padding: 22px 26px;
+    border-radius: 5px;
+    display: inline-block;
+    justify-content: center;
+  }
+
+  .secondSection .sssecondPart {
+    margin-left: 10px;
+    margin-right: 10px;
+    display: block;
+    align-items: center;
+    gap: 100px;
+  }
+
+  .secondSection .sssecondPart .spLeft .splFirst {
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    width: 80%;
+  }
+
+  .secondSection .sssecondPart .spLeft .splFirst .splredText {
+    color: #d51435;
+    text-decoration: none;
+    cursor: default;
+  }
+
+  .secondSection .sssecondPart .spLeft .splSecond {
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    width: 80%;
+    /* white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis; */
+    margin-top: -25px;
+    margin-bottom: 25px;
+  }
+
+  .secondSection .sssecondPart .spLeft .splLink {
+    color: #fff;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    background-image: linear-gradient(#d51435, #c20c4e);
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 13px;
+  }
+
+  .secondSection .sssecondPart .spRight {
+    margin-top: 20px;
+  }
+
+  .secondSection .sssecondPart .spRight img {
+    width: 100%;
+  }
+
+  .thirdsectionContainer {
+    background: url("imgs/Rectangle 18.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding-top: 150px;
+  }
+
+  .thirdsectionContainer .thirdSection .tsfirstPart .tsfpTitle {
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    justify-content: center;
+    display: block;
+    padding: 0;
+    padding-bottom: 30px;
+  }
+
+  .thirdsectionContainer .thirdSection .tsfirstPart .tsfpTitle .tsfptredText {
+    text-decoration: none;
+    color: #d51435;
+  }
+
+  .thirdsectionContainer .thirdSection .tsfirstPart .tsfpCards {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+  }
+
+  .thirdsectionContainer .thirdSection .tsfirstPart .tsfpCards section {
+    background-color: #13151c;
+    display: inline-block;
+    width: 250px;
+    text-align: center;
+    border-radius: 15px;
+    padding: 35px 35px 55px 35px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .thirdsectionContainer .thirdSection .tsfirstPart .tsfpCards .fpcardsFirst {
+    transform: rotate(0deg);
+    margin-bottom: 10px;
+  }
+
+  .thirdsectionContainer .thirdSection .tsfirstPart .tsfpCards .fpcardsSecond {
+    transform: rotate(0deg);
+  }
+
+  .thirdsectionContainer
+    .thirdSection
+    .tsfirstPart
+    .tsfpCards
+    section
+    .fpcTitle {
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    font-size: 16px;
+  }
+
+  .thirdsectionContainer
+    .thirdSection
+    .tsfirstPart
+    .tsfpCards
+    section
+    .fpcTitle
+    .fpctredText {
+    text-decoration: none;
+    color: #d51435;
+  }
+
+  .thirdsectionContainer
+    .thirdSection
+    .tsfirstPart
+    .tsfpCards
+    section
+    .fpcLink {
+    color: #fff;
+    background-image: linear-gradient(#d51435, #c20c4e);
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    padding: 17px 34px;
+    border-radius: 5px;
+    font-size: 13.5px;
+  }
+
+  .thirdSection .tssecondPart {
+    background-color: #13151c;
+    border-radius: 17px;
+    padding-bottom: 55px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+
+  .thirdSection .tssecondPart .tsspTitle {
+    margin-left: 25px;
+    padding-top: 55px;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+  }
+
+  .thirdSection .tssecondPart .tsspCards {
+    margin-left: 0px;
+    margin-top: 30px;
+    margin-right: 0px;
+    display: block;
+  }
+
+  .thirdSection .tssecondPart .tsspCards .spcardsLeft {
+    background-color: #1c1e28;
+    padding: 25px;
+    justify-content: center;
+    display: block;
+    margin: 0 auto;
+    border-radius: 12px;
+    margin-bottom: 20px;
+  }
+
+  .thirdSection .tssecondPart .tsspCards .spcardsRight {
+    background-color: #1c1e28;
+    padding: 25px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 12px;
+  }
+
+  .thirdSection .tssecondPart .tsspCards .spcardsLeft .spclTitle {
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+  }
+
+  .thirdSection .tssecondPart .tsspCards .spcardsLeft .spclCard img {
+    width: 100%;
+  }
+
+  .thirdSection .tssecondPart .tsspCards .spcardsLeft .spclCard .clcfirstText {
+    width: 90%;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+  }
+
+  .thirdSection
+    .tssecondPart
+    .tsspCards
+    .spcardsLeft
+    .spclCard
+    .clcfirstText
+    a {
+    text-decoration: none;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+  }
+
+  .thirdSection .tssecondPart .tsspCards .spcardsLeft .spclCard .clcsecondText {
+    color: #fff;
+    opacity: 0.7;
+    font-family: "Inter", sans-serif;
+    width: 90%;
+    font-size: 17px;
+  }
+
+  .thirdSection .tssecondPart .tsspCards .spcardsLeft .spclCard .spclcBottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .thirdSection
+    .tssecondPart
+    .tsspCards
+    .spcardsLeft
+    .spclCard
+    .spclcBottom
+    .clcbDate {
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    opacity: 0.7;
+    font-size: 15px;
+  }
+
+  .thirdSection
+    .tssecondPart
+    .tsspCards
+    .spcardsLeft
+    .spclCard
+    .spclcBottom
+    .clcbLink {
+    color: #fff;
+    background-image: linear-gradient(#d51435, #c20c4e);
+    text-decoration: none;
+    padding: 15px 25px;
+    font-family: "Inter", sans-serif;
+    border-radius: 5px;
+    font-size: 13.5px;
+  }
+
+  .thirdSection .tssecondPart .tsspCards .spcardsRight .spcrTitle {
+    font-family: "Inter", sans-serif;
+    color: #fff;
+    font-weight: 600;
+  }
+
+  .thirdSection .tssecondPart .tsspCards .spcardsRight .spcrsecondText {
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .thirdSection .tssecondPart .tsspCards .spcardsRight .spcrsecondText i {
+    border-radius: 30px;
+    font-size: 20px;
+  }
+
+  .thirdSection .tssecondPart .tsspCards .spcardsRight .spcrsecondText a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    border-bottom: 1px solid #fff;
+  }
+
+  .thirdSection .tssecondPart .tsspCards .spcardsRight .spcrimageGrid {
+    display: flex;
+    gap: 27px;
+    width: 100%;
+  }
+
+  .thirdSection .tssecondPart .tsspCards .spcardsRight .spcrimageGrid img {
+    width: 160px;
+    height: 160px;
+  }
+
+  .thirdsectionContainer .thirdSection .newsletterText {
+    text-align: center;
+  }
+
+  .thirdsectionContainer .thirdSection .newsletterText .nltfirstText {
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+  }
+
+  .thirdsectionContainer .thirdSection .newsletterText .nltsecondText {
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    opacity: 0.8;
+    margin-top: -10px;
+    margin-bottom: 30px;
+    font-size: 16px;
+  }
+
+  .thirdsectionContainer .thirdSection .newsletterText .nltLink {
+    color: #fff;
+    font-size: 14px;
+    padding: 15px 30px;
+    background-image: linear-gradient(#d51435, #c20c4e);
+    border-radius: 5px;
+    text-decoration: underline;
+    font-family: "Inter", sans-serif;
+  }
+
+  footer {
+    background-color: #000;
+    padding-left: 25px;
+    padding-top: 55px;
+    padding-bottom: 15px;
+    padding-right: 25px;
+  }
+
+  footer .footerUp {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  footer .footerUp .fuLeft {
+    display: grid;
+    gap: 40px;
+  }
+
+  footer .footerUp .fuLeft section .fulTitle {
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 2px;
+    border-bottom: 0.5px solid #888888;
+    padding-bottom: 15px;
+    width: 35px;
+    margin-bottom: 25px;
+  }
+
+  footer .footerUp .fuLeft section .fulLinks {
+    display: grid;
+    gap: 20px;
+  }
+
+  footer .footerUp .fuLeft section .fulLinks a {
+    color: #fff;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    opacity: 0.95;
+  }
+
+  footer .footerUp .fuLeft section .fulLinks a:hover {
+    opacity: 0.6;
+  }
+
+  footer .footerUp .fuRight {
+    display: none;
+  }
+
+  footer .footerUp .fuRight .furUp {
+    display: block;
+    align-items: center;
+    float: left;
+    text-align: left;
+    gap: 8px;
+  }
+
+  footer .footerUp .fuRight .furUp a {
+    color: #fff;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  footer .footerUp .fuRight .furDown {
+    display: none;
+    gap: 25px;
+    float: right;
+    text-align: right;
+  }
+
+  footer .footerUp .fuRight .furDown a {
+    color: #fff;
+    font-size: 18px;
+    padding-top: 75px;
+  }
+
+  footer .footermiddleLine {
+    width: 100%;
+    height: 0.1px;
+    border: none;
+    border-top: 0.1px solid #fff;
+  }
+
+  footer .footerDown .fdInner .fdiUpper {
+    display: block;
+    text-align: center;
+  }
+
+  footer .footerDown .fdInner .fdiDown p {
+    color: #fff;
+    opacity: 0.6;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+  }
+
+  footer .footerDown .fdInner .fdiUpper .fdiuFirst {
+    color: #fff;
+    font-weight: 400;
+    font-size: 12px;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  footer .footerDown .fdInner .fdiUpper .fdiuSecond .fdiusLinks {
+    color: #fff;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  }
+
+  footer .footerDown .fdInner .fdiUpper .fdiuSecond .fdiusLinks a {
+    color: #fff;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+  }
+
+  footer .footerDown .fdInner .fdiUpper .fdiuSecond .fdiusLinks .fdiusl4 span {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+  }
+
+  #uckbt {
+    cursor: text;
+  }
+}
+
+@media (max-width: 768px) {
+  header .navbarmenu .menu-nav .mainMenu {
+    display: none;
+  }
+
+  header .navbarmenu .menu-nav .mainMenu.hamburger {
+    display: block;
+  }
+}
+
+@media (min-width: 769px) {
+  header .navbarmenu .menu-nav .mainMenu {
+    display: initial;
+  }
+
+  header .navbarmenu .menu-nav #toggle-bar {
+    display: none;
+  }
+}

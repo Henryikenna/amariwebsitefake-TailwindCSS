@@ -1,0 +1,133 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body {
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(#1a1e29, #333645);
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+
+#logo #logovec {
+    background-image: linear-gradient(#d51435, #c20c4e);
+    padding: 15px;
+  width: 53px;
+  border-right: 0.3px solid #fff;
+  }
+
+
+  #fsMiddle {
+    background-image: url("imgs/carbg.png");
+    width: 100%;
+    height: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+
+  #driftinButton{
+    background-image: linear-gradient(#d51435, #c20c4e);
+  }
+  #fsbRightImages{
+    background: #13151c;
+  }
+  #fsbRightImages section img{
+    width: 200px;
+  height: 110px;
+  }
+  #blurimg{
+    filter: blur(1px);
+  }
+
+  #ssfc{
+    background-color: #13151c;
+    border-radius: 17px;
+  }
+
+  #ssfcImgs{
+    justify-content: center;
+    align-content: center;
+
+  }
+
+  #ssfcImgs section img{
+    width: 350px;
+    height: 175px;
+    border-radius: 5px;
+  }
+
+  #ssfcContent{
+    background: #1a1e28;
+    padding: 10px;
+    padding-bottom: 30px;
+    border-radius: 5px;
+    width: 100%;
+
+  }
+  #fccarName{
+    width: 250px;
+    margin-top: 15px;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-size: 15.5px;
+    line-height: 20px;
+  }
+
+  #fccarPrice{
+    margin-top: 10px;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 15px;
+  }
+
+  #vialst{
+    
+  background-image: linear-gradient(#d51435, #c20c4e);
+  }
+
+  #splLink{
+    
+  background-image: linear-gradient(#d51435, #c20c4e);
+  }
+
+  #thirdsectionContainer{
+    background: url("imgs/Rectangle\ 18.png");
+    background-repeat: no-repeat;
+  }
+
+  #fpcards{
+    background: #13151c;
+    display: inline-block;
+    width: 350px;
+    text-align: center;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #fpcLink{
+    
+  background-image: linear-gradient(#d51435, #c20c4e);
+  }
+
+  #clcbLink{
+    
+  background-image: linear-gradient(#d51435, #c20c4e);
+  }
+
+  #spcrGrid img{
+    width: 135px;
+    height: 125px;
+  }
+
+  #mlLink{
+    background-image: linear-gradient(#d51435, #c20c4e);
+  }
