@@ -101,6 +101,8 @@ body {
   #thirdsectionContainer{
     background: url("imgs/Rectangle\ 18.png");
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
   }
 
   #fpcards{
@@ -131,3 +133,10 @@ body {
   #mlLink{
     background-image: linear-gradient(#d51435, #c20c4e);
   }
+
+  #headmenucont{
+    gap: 60%;
+    width: 100%;
+  }
+
+  

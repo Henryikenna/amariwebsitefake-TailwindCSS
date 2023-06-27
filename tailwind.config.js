@@ -6,7 +6,12 @@ module.exports = {
       sm: '480px',
       md: '768px',
       lg: '976px',
-      xl: '1440px'
+      xl: '1440px',
+      // twsm: '640px',
+      // twmd: '768px',
+      // twlg: '1024px',
+      // twxl: '1280px',
+      // tw2xl: '1536px'
     },
     fontFamily:{
       'inter': ["Inter", 'sans-serif'],
